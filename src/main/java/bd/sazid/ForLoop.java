@@ -7,6 +7,14 @@ public class ForLoop {
 			System.out.println(i);
 			
 		}
+		
+		int b[]= new int[5];
+		b[0]=20;
+		b[1]=30;
+		
+		for(int i:b) {
+			System.out.println(i);
+		}
 	}
 
 }
